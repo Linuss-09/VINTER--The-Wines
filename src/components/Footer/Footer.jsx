@@ -45,7 +45,7 @@ function Footer() {
         <div className="max-w-6xl mx-auto flex justify-between md:flex-row items-center  space-y-4 md:space-y-0">
 
           {/* copyright */}
-          <p className=" text-center text-sm md:text-left text-white">© 2025 VINTIR. All rights reserved.</p>
+          <p className=" text-center text-sm md:text-left text-white">© 2025 VINTER. All rights reserved.</p>
 
 
 
