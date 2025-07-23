@@ -88,11 +88,6 @@ function Footer() {
 
       </div>
 
-      <div className="max-w-lg mx-auto text-center text-white mb-4">
-
-          <p className="text-lg border-b hover:scale-x-105 transition-transform duration-300 inline-block text-center font-cinzel ">made by mr.Linus </p>
-
-      </div>
 
 
     </footer>
