@@ -2,21 +2,27 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="px-8 py-4 bg-emerald-950">
+    <footer className="px-4 lg:px-8 py-4 bg-emerald-950">
       {/* part 1: The Grid */}
-      <div className="grid py-12 grid-cols-1 md:grid-cols-4 border-t-2 max-w-6xl mx-auto items-start gap-8">
-        <div className="col-span-2 text-white md:text-left text-center space-y-6">
+      <div className="grid py-6 lg:py-12 grid-cols-1 
+      md:grid-cols-2 lg:grid-cols-4 border-t-2 max-w-6xl mx-auto items-start gap-8">
+
+
+        <div className="md:col-span-2 text-white md:text-left text-center space-y-4 lg:space-y-6">
+          {/* the link of logo */}
           <a href="/" className="hover:scale-105 transition-transform inline-block duration-300">
-          <h2 className="text-4xl font-bold font-antiqua tracking-wider mb-6">VINTER</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold font-antiqua tracking-wider mb-3 md:mb-6">VINTER</h2>
           </a>
 
-          <h3 className='text-lg text-purple-100 '>Premium Wine Collection</h3>
-          <p className='text-gray-300 leading-normal'>Discover the finest collection of premium wines from renowned wineries worldwide. Experience elegance in every sip.</p>
+          <h3 className='text-base lg:text-lg text-purple-100 '>Premium Wine Collection</h3>
+          <p className='text-sm md:text-base text-gray-300 leading-normal'>Discover the finest collection of premium wines from renowned wineries worldwide. Experience elegance in every sip.</p>
           </div>
 
-        <div className="flex  justify-center items-center flex-col ">
-          <h2 className="font-bold uppercase tracking-wider text-purple-50 mb-4 border-b inline-block ">Quick links</h2>
-          <ul className="flex flex-col text-amber-100 space-y-4">
+          {/* QUICK LINKS */}
+        <div className="flex justify-center items-center flex-col ">
+          <h2 className="text-sm lg:text-base  font-bold uppercase tracking-wider text-purple-50 mb-4 border-b inline-block ">Quick links</h2>
+
+          <ul className="flex flex-col  text-amber-100 space-y-2 text-sm lg:text-base lg:space-y-4">
             <li 
             className="hover:text-white hover:translate-x-1.5 transition-all duration-300
             "><a href="/">Home</a></li>
@@ -28,9 +34,13 @@ function Footer() {
           </ul>
           </div>
 
-        <div className=" flex pb-8 pr-8 flex-col justify-center items-center">
-          <h2 className="text-purple-50 font-bold uppercase tracking-wider border-b inline-block border-purple-50  ">Info...</h2>
-          <ul className="flex flex-col mt-4 space-y-4 text-white">
+        {/* INFO SECTIONINNN */}
+        <div className=" flex pb-4 md:pb-8 md:pr-8 flex-col items-center">
+          <h2 className="text-amber-50 font-bold uppercase tracking-wider border-b inline-block border-amber-50  
+          text-sm md:text-base
+          ">Info...</h2>
+
+          <ul className="flex flex-col mt-4 space-y-2 md:space-y-4 text-white text-sm md:text-base ">
             <li className="hover:text-blue-200 hover:translate-x-1.5 transition-all duration-300"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Terms of Service</a></li>
             <li className="hover:text-blue-200 hover:translate-x-1.5 transition-all duration-300"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Shipping and Returns</a></li>
             <li className="hover:text-blue-300 hover:translate-x-1.5 transition-all duration-300"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Looking for Sponsers ?</a></li>
@@ -40,18 +50,18 @@ function Footer() {
 
       {/* part 2:The FlexBox */}
 
-      <div className="border-t mt-2 border-purple-50 px-8 py-6">
+      <div className="border-t md:mt-2 border-purple-50  px-4 md:px-8 py-3 md:py-6">
 
-        <div className="max-w-6xl mx-auto flex justify-between md:flex-row items-center  space-y-4 md:space-y-0">
+        <div className="max-w-6xl  border-white mx-auto flex justify-between flex-col md:flex-row items-center  space-y-4 md:space-y-0">
 
           {/* copyright */}
-          <p className=" text-center text-sm md:text-left text-white">© 2025 VINTER. All rights reserved.</p>
+          <p className=" text-center text-sm md:text-left md:text-base text-white">© 2025 VINTER. All rights reserved.</p>
 
 
 
           {/* 2nd item */}
-          <div className="">
-            <ul className="flex space-x-4 ">
+          <div className=" ">
+            <ul className="flex space-x-3 md:space-x-4 ">
               <li className='hover:scale-110 hover:-translate-y-0.5 transition-all duration-300' ><a href="">
   <svg xmlns="http://www.w3.org/2000/svg" 
   className='fill-white hover:fill-black/80 transition-colors duration-300 ' 
