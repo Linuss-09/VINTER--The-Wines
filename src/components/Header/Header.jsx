@@ -6,7 +6,7 @@ function Header() {
   console.log(isMenuOpen)
 
   return (
-    <header className=" py-4 px-8  bg-emerald-950">
+    <header className=" py-6 md:py-4 px-8  bg-emerald-950">
       <nav className=" mx-auto px-8 py-4 bg-white flex justify-between items-center shadow-md rounded-lg backdrop-blur-lg ">
 
         {/* div for logo */}
@@ -85,7 +85,7 @@ function Header() {
 
       {isMenuOpen && (
         <div className="md:hidden bg-white mx-8 mt-2 rounded-2xl shadow-lg">
-          <ul className=" bg-amber-50 font-ubuntu rounded-lg flex flex-col py-2 ">
+          <ul className=" bg-[#fffbf6] font-ubuntu rounded-lg flex flex-col py-2 ">
             <li >
               <NavLink to="/"
               onClick={() => setIsMenuOpen(false)}

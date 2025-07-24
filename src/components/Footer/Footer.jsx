@@ -14,13 +14,13 @@ function Footer() {
           <h2 className="text-3xl lg:text-4xl font-bold font-antiqua tracking-wider mb-3 md:mb-6">VINTER</h2>
           </a>
 
-          <h3 className='text-base lg:text-lg text-purple-100 '>Premium Wine Collection</h3>
-          <p className='text-sm md:text-base text-gray-300 leading-normal'>Discover the finest collection of premium wines from renowned wineries worldwide. Experience elegance in every sip.</p>
+          <h3 className='text-base lg:text-lg text-white '>Premium Wine Collection</h3>
+          <p className='text-sm md:text-base text-gray-50 leading-normal'>Discover the finest collection of premium wines from renowned wineries worldwide. Experience elegance in every sip.</p>
           </div>
 
           {/* QUICK LINKS */}
         <div className="flex justify-center items-center flex-col ">
-          <h2 className="text-sm lg:text-base  font-bold uppercase tracking-wider text-purple-50 mb-4 border-b inline-block ">Quick links</h2>
+          <h2 className="text-sm lg:text-base  font-bold uppercase tracking-wider text-white mb-4 border-b inline-block ">Quick links</h2>
 
           <ul className="flex flex-col  text-amber-100 space-y-2 text-sm lg:text-base lg:space-y-4">
             <li 
